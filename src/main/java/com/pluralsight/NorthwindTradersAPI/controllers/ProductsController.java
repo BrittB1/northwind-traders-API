@@ -15,7 +15,7 @@ import java.util.List;
 public class ProductsController {
 
     //temporary list - to be replaced w/ database
-    private List<Product> products;
+    private final List<Product> products;
 
     public ProductsController() {
 

@@ -17,7 +17,7 @@ import java.util.List;
 public class CategoriesController {
 
     //temporary list - to be replaced w/ database
-    private List<Category> categories;
+    private final List<Category> categories;
 
     public CategoriesController() {
         categories = new ArrayList<>();
